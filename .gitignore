@@ -25,6 +25,10 @@ notebooks/deveopment
 # VS Code settings
 .vscode/
 
+# exclude claude code files
+CLAUDE.md
+.claude/
+
 # User-specific configurations
 *.code-workspace
 
