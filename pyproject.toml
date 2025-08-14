@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "water-network"
+version = "0.1.0"
+description = "Intelligent Water Network Management System"
+authors = ["Shervin <khazaelis@cdmsmith.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+neo4j = "^5.28.2"
+pandas = "^2.3.1"
+matplotlib = "^3.10.5"
+jupyter = "^1.1.1"
+plotly = "^6.3.0"
+networkx = "<3.5"
+pyvis = "^0.3.2"
+python-dotenv = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

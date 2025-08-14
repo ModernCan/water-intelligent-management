@@ -21,6 +21,7 @@ notebooks/deveopment
 *.tsp
 *.png
 *.csv
+*.sh
 
 # VS Code settings
 .vscode/
